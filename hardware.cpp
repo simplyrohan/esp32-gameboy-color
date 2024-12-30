@@ -11,7 +11,8 @@ bool oldKeys[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 
 void setupHardware()
 {
-    tft.init(TFT_WIDTH, TFT_HEIGHT); // Init ST7789 display
+    // tft.init(TFT_WIDTH, TFT_HEIGHT); // Init ST7789 display
+    tft.init(TFT_HEIGHT, TFT_WIDTH); // Init ST7789 display
     tft.setRotation(1);
     tft.setSPISpeed(80000000);
     tft.fillScreen(ST77XX_BLACK);

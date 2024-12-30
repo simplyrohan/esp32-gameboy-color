@@ -29,8 +29,8 @@
 #define TFT_DC A2
 #define TFT_BL TX
 
-#define TFT_HEIGHT 240
-#define TFT_WIDTH 135
+#define TFT_HEIGHT 135
+#define TFT_WIDTH 240
 
 #define SD_CS A1
 
